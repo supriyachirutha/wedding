@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>project</title>
+    <style>
+        h3{
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+<h1 class="text-center text-primary">WELCOME TO LOVELY WEDDING WEBSITE </h1>
+<!--navbar start-->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+    <div class="container-fluid"><a href=""class="navbar-brand">
+        <i style="color: yellow;">*Lovely*</i><br><b style="color:greenyellow;">Wedding</b>
+        <br><i style="color: yellow;">planning</i></a>
+    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar123"></button>
+    <div class="collapse navbar-collapse" id="navbar123">
+        <div class="navbar-nav">
+        <a href="#Home" class="btn btn-primary nav-item mx-2">Home</a>
+        <a href="#Aboutus" class="btn btn-primary nav-item mx-2">Aboutus</a>
+        <a href="#Services" class="btn btn-primary nav-item mx-2">Services</a>
+        <a href="#Contactus" class="btn btn-primary nav-item mx-2">Contactus</a>
+        <!--<button class="btn btn-primary mx-2" data-bs-toggle="modal" data-bs-target="#modal123">Login</button>-->
+        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal123">Login</button>
+        </div>
+    </div>
+    </div>
+</nav>
+<!--navbar end-->
+<!--carousel start-->
+<div class="carousel slide" data-bs-ride="carousel" id="carousel123">
+    <!--carousel-indicators-->
+    <ol class="carousel-indicators">
+        <li class="active" data-bs-target="#carousel123" data-bs-slide-to="0"></li>
+        <li data-bs-target="#carousel123" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carousel123" data-bs-slide-to="2"></li>
+    </ol>
+    <!--corouselbody-->
+    <div class="carousel-inner">
+        <!--item 1-->
+        <div class="carousel-item active">
+         <img src="../BS/images/mandap.jpg" alt="" class="w-100">
+         <div class="carousel-caption">
+            <h1>Welcome User</h1>
+            <i>Budget friendly planning with beautiful decorations for your dream day</i>
+         </div>
+        </div>
+        <!--item 2-->
+        <div class="carousel-item">
+            <img src="../BS/images/party.jpg" alt="" class="w-100">
+        </div>
+        <!--item 3-->
+        <div class="carousel-item">
+            <img src="../BS/images/haldi.jpg" alt="" class="w-100">
+        </div>
+    </div>
+      <!--carousel-controls-->
+      <a href="#carousel123" data-bs-slide="prev" class="carousel-control-prev">
+        <span class="carousel-control-next-icon bg-primary"></span></a>
+</div>
+<!--carousel end-->
+<!--Home-->
+<div id="Home">
+    <h2 style="color: blue;">Home</h2>
+    <p style="color: darkorange;">We create unforgettable memories with our lovely wedding planning.
+        with many designs and decorations including luxurious to organic floral designs.
+        Feel the magic with lovely wedding planning.Connect now to plan your big day with best wedding 
+        experiences.Make lifelong memories that are unforgettable....
+    </p>
+</div>
+<!--Aboutus-->
+<div style="color:brown;" id="Aboutus">
+    <h2>About us</h2>
+    <p style="color: black;">lovely wedding is a wedding planning company based in the city of hyderabad.
+        They transform all sorts of possibilities to create incredible experiences
+         and backdrops for you to have the most perfect day of your lives.
+        They use great stuff and makes you shine all throughout the wedding functions.
+        Lovely wedding is what you looking for if your desire a fabulously
+         luxurious and custom detailed wedding.
+        our skill and creativity enable us to design any kind of themed decor from floral 
+        to custom,share your imagination and get ready to be amazed on your big day.
+        Lovely wedding is the preferred choice you should undoubtedly make for your
+         wedding and all its related functions.</p>
+</div>
+<!--Services-->
+<div id="Services">
+    <h2 style="color: aqua;">Services</h2>
+    <P style="color:purple;">In addition to the mandatory components for wedding look,Lovely
+         wedding creates customised events in the fields of the business
+         and they make sure that the brides have the most perfect time with their loved ones.
+        A variety of services will be offered and the design team can decorate 
+        any type of venue of any size and for any occasion
+        From floral details for mehendi function to grand stage and mandap.
+        Budget friendly and diverse, the services offered by this company is definitely going to impress you.
+    </P>
+    <li style="color:red;" >venue selection</li>
+    <li style="color:red;" >Decoration</li>
+    <li style="color:red;" >Dj&Entertainment</li>
+    <li style="color:red;" >Photography/videography</li>
+    <li style="color:red;" >Makeup</li>
+    <li style="color:red;" >Guests support&Hospitality</li>
+    <li style="color:red;" >Catering</li>
+    <li style="color:red;" >Band&Barat</li>
+</div>
+<!--Contactus-->
+<div id="Contactus">
+    <h2 style="background-color:antiquewhite;">Contactus</h2>
+ <p style="color:blue;">Madhapur,Hyderabad.<br>Helpline Number : 9876543210</p>
+</div>
+<!--Login-->
+<div class="modal" id="modal123">
+    <!--backgroubd will become shady-->
+    <div class="modal-dialog"> <!--it will creates the dialog box-->
+        <div class="modal-content"><!--modal structure will be created-->
+            <div class="modal-header">
+                <h2>Login page:</h2>
+                <button data-bs-dismiss="modal" class="btn-close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-floating text-light">
+                        <input type="text" name="Fname" id="Fname" class="form-control text-light" placeholder="supriya" style="background-color:rgb(76,76,109);">
+                        <label for="Fname">Firstname:</label>
+                    </div>
+                    <div class="form-floating my-2 text-light">
+                        <input type="text" name="Lname" id="Lname" placeholder="Chirutha" class="form-control text-light"
+                        style="background-color:rgb(76,76,109);">
+                        <label for="Lname">Lastname:</label>
+                    </div>
+                    <div class="form-floating text-light">
+                        <input type="email" name="email" id="email" placeholder="username@gmail.com" required class="form-control text-light"
+                        style="background-color: rgb(76,76,109);">
+                        <label for="email">email address:</label>
+                    </div>
+                    <a href="" class="text-light">forget password?</a>
+                    <a href="" style="float:right;" class="text-light">Already account exist?</a><br>
+                    <input type="submit" value="Login" class="btn btn-primary px-5" style="margin:0% 30%;">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
